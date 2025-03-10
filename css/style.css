@@ -1,8 +1,6 @@
 /* Variables */
 :root {
-  --containerW: 1100px;
-  --sectionH: 150px;
-  --sectionImgW: 696px;
+  --containerW: 1400px;
 }
 
 /* # RESET */
@@ -42,7 +40,6 @@ body {
 .container {
   max-width: var(--containerW);
   margin: 0 auto;
-  /* padding: 0 10px; */
 }
 
 .btn {
@@ -55,7 +52,7 @@ body {
 
 .btn-big {
   font-size: 1.2rem;
-  padding: 10px 20px;
+  padding: 20px 20px;
 }
 
 .btn-secondary {
@@ -79,6 +76,7 @@ body {
 .col-25 {
   width: 25%;
 }
+
 /* Header */
 
 header {
@@ -117,24 +115,26 @@ header {
   background-image: url("../img/jumbo.png");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   color: white;
 }
 
 .header-content-main.small {
   max-width: calc(var(--containerW) - 200px);
-  padding: 6.5rem 6rem 8rem 6rem;
+  padding: 11.5rem 6rem;
 }
 
 .header-content-main.small > h1 {
   text-align: center;
   padding-bottom: 1rem;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .header-content-main.small > p {
   text-align: center;
-  padding-bottom: 1rem;
-  line-height: 2rem;
+  padding-bottom: 2rem;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .header-content-main.small > .jumbotron-button {
