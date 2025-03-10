@@ -1,4 +1,5 @@
 /* Variables */
+
 :root {
   --containerW: 1400px;
 }
@@ -51,14 +52,15 @@ body {
 }
 
 .btn-big {
-  font-size: 1.2rem;
-  padding: 20px 20px;
+  font-size: 1.7rem;
+  padding: 10px 15px;
+  margin-right: 20px;
 }
 
 .btn-secondary {
   background-color: black;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
 }
 
 .btn-third {
