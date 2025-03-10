@@ -55,6 +55,7 @@ body {
 
 .btn-big {
   font-size: 1.2rem;
+  padding: 10px 20px;
 }
 
 .btn-secondary {
@@ -143,6 +144,9 @@ header {
 
 /* MAIN */
 
+.main-content > section {
+}
+
 .main-content > section:nth-child(even) {
   background-color: #f6f6f6;
 }
@@ -153,14 +157,18 @@ header {
 
 section > .container {
   display: flex;
-  padding: 60px 0;
+  padding: 100px 0;
   flex-wrap: wrap;
 }
 
 .col-30 > h2 {
   padding-top: 30px;
   font-size: 2.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.col-30 > p {
+  line-height: 25px;
 }
 
 .content-img.big {
@@ -168,31 +176,48 @@ section > .container {
 }
 
 .content-img.big h2 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 50px;
 }
 
 .call-to-action > h2 {
   background-image: url("../img/stars.svg");
-  background-repeat: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   line-height: 3rem;
+  margin-bottom: 45px;
 }
 
 /* FOOTER */
 
 footer {
   background-color: #23272a;
-  padding: 10px;
+  padding: 30px 10px;
   color: white;
 }
 
-footer h3,
+footer h2,
 footer h4 {
   color: #7389da;
+  margin-bottom: 1rem;
+}
+
+footer .language {
+  margin-bottom: 1rem;
+}
+
+.language > img {
+  width: 1rem;
+}
+
+.icons > i {
+  text-align: left;
+  margin-right: 1rem;
 }
 
 .link-footer ul li {
   display: block;
-  padding: 5px 0;
+  padding: 10px 0;
 }
 
 .container.footer-top {
@@ -226,4 +251,5 @@ footer h4 {
 
 .container.footer-bottom button {
   background-color: #7389da;
+  color: white;
 }
